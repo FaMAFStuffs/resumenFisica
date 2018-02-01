@@ -1,0 +1,67 @@
+\section{Movimiento en una dimensión}
+  \subsection{Posición, velocidad y repidez}
+    \begin{itemize}
+      \item La \textbf{posición} x de una partícula es la ubicación de la partícula respecto a un punto de referencia
+      elegido que se considera el origen de un sistema coordenado. El movimiento de una partícula se conoce por completo
+      si la posición de la partícula en el espacio se conoce en todo momento.
+
+      \item El \textbf{desplazamiento} $\Delta x$ de una partícula se define como su cambio en posición en algún
+      intervalo de tiempo. Conforme la partícula se mueve desde una posición inicial $x_{i}$ a una posición final
+      $x_{f}$, su desplazamiento está dado por:
+      \begin{equation*}
+        \Delta x \equiv x_{f} - x_{i}
+      \end{equation*}
+
+      \item \textbf{Distancia} es la longitud de una trayectoria seguida por una partícula. La distancia siempre se
+      representa como un número positivo, mientras que el desplazamiento puede ser positivo o negativo.
+
+      \item La \textbf{velocidad promedio} $v_{x,prom}$ de una partícula se define como el desplazamiento x de la
+      partícula dividido entre el intervalo de tiempo $t$ durante el que ocurre dicho desplazamiento:
+      \begin{equation*}
+        v_{x,prom} \equiv \frac{\Delta x}{\Delta t}
+      \end{equation*}
+
+      \item La \textbf{rapidez promedio} $v_{prom}$ de una partícula, una cantidad escalar, se define como la distancia
+      total recorrida dividida entre el intervalo de tiempo total requerido para recorrer dicha distancia:
+      \begin{equation*}
+        v_{prom} \equiv \frac{d}{\Delta t}
+      \end{equation*}
+    \end{itemize}
+
+  \subsection{Velocidad y rapidez instantáneas}
+    \begin{itemize}
+      \item La \textbf{velocidad instantánea} $v_{x}$ es igual al valor límite de la razón $\Delta x / \Delta t$
+      conforme $\Delta t$ tiende a cero, es decir, a la derivada de x respecto de $t$:
+      \begin{equation*}
+        v_{x} \equiv \lim_{\Delta t \rightarrow 0} \ \frac{\Delta x}{\Delta t} = \frac{dx}{dt}
+      \end{equation*}
+
+      \item La \textbf{rapidez instantánea} de una partícula se define como la magnitud de su velocidad instantánea.
+    \end{itemize}
+
+  \subsection{Aceleración}
+    \begin{itemize}
+      \item La \textbf{aceleración promedio} $a_{x,prom}$ de la partícula se define como el cambio en velocidad $\Delta
+      v_{x}$ dividido entre el intervalo de tiempo $t$ durante el que ocurre el cambio:
+      \begin{equation*}
+        a_{x,prom} \equiv \frac{\Delta v_{x}}{\Delta t}
+      \end{equation*}
+
+      \item La \textbf{aceleción instantánea} como el límite de la aceleración promedio conforme $\Delta t$ tiende a
+      cero.
+      \begin{equation*}
+        a_{x} \equiv \lim_{\Delta t \rightarrow 0} \ \frac{\Delta v_{x}}{\Delta t} = \frac{dv_{x}}{dt}
+      \end{equation*}
+    \end{itemize}
+
+  \subsection{Análisis de modelo: la partícula bajo aceleración constante}
+    \begin{itemize}
+      \item \textbf{Posición:}
+      \begin{equation*}
+        x_{f} = x_{i} + v_{xi} t + \frac{1}{2} a_{x}t^{2}
+      \end{equation*}
+      \item \textbf{Velocidad:}
+      \begin{equation*}
+        v_{xf} = v_{xi} + a_{x} t
+      \end{equation*}
+    \end{itemize}

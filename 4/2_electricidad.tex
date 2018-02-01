@@ -1,0 +1,85 @@
+\section{Ley de Gauss}
+  \subsection{Flujo eléctrico}
+    \PN El total de líneas que penetran en la superficie es proporcional al producto $EA$. A este producto de la
+    magnitud del campo eléctrico $E$ y al área superficial $A$, perpendicular al campo, se le conoce como \textbf{flujo
+    eléctrico} $\Phi$.
+    \begin{equation*}
+      \Phi = EA \cos(\theta)
+    \end{equation*}
+
+    \PN Con base en las unidades del SI correspondientes a $E$ y $A$, $\Phi$ se expresa en (N $m^{2} /$ C). El flujo
+    eléctrico es proporcional al número de las líneas de campo eléctrico que penetran en una superficie.
+
+    \PN Considere una superficie dividida en un gran número de elementos pequeños, cada uno de área $\Delta A$. Es
+    conveniente definir un vector $\Delta \vec{A}_{i}$ cuya magnitud representa el área del elemento i-ésimo sobre la
+    superficie y cuya dirección está definida como perpendicular al elemento de superficie. El campo eléctrico $\vec{E}$
+    en la ubicación de este elemento forma un ángulo $u_{i}$ con el vector $\Delta \vec{A}_{i}$. El flujo eléctrico
+    $\Delta \Phi$ a través de este elemento es
+    \begin{equation*}
+      \Delta \Phi = E_{i} \Delta A_{i} \cos(\theta_{i}) = \vec{E} \Delta \vec{A}_{i}
+    \end{equation*}
+
+    \PN Al sumar las contribuciones de todos los elementos, obtiene el flujo total a través de la superficie.
+    \begin{equation*}
+      \Phi \approx \sum \vec{E}_{i} \Delta \vec{A}_{i}
+    \end{equation*}
+
+    \PN Si supone que el área de cada elemento se acerca a cero, en tal caso el número de elementos se acercaría al
+    infinito y la suma se reemplaza por una integral. Debido a eso, la definición general del flujo eléctrico es
+    \begin{equation*}
+      \Phi = \oint \vec{E} \ d\vec{A}
+    \end{equation*}
+
+    \PN El flujo neto a través de la superficie es proporcional al número neto de líneas que salen de la superficie,
+    donde número neto significa la cantidad de líneas que salen de la superficie menos la cantidad de líneas que entran.
+
+    \subsection{Ley de Gauss}
+      \PN La Ley de Gauss se define como la correspondencia de tipo general entre el flujo eléctrico neto a través de
+      una superficie cerrada y la carga encerrada en la superficie.
+
+      \PN Suponga de nuevo una carga puntual positiva $q$ ubicada en el centro de una esfera de radio $r$. Se sabe que
+      la magnitud del campo eléctrico en todos los puntos de la superficie de la esfera es $E = k q/r^{2}$. Las líneas
+      de campo están dirigidas radialmente hacia afuera y por tanto son perpendiculares a la superficie en todos sus
+      puntos. Es decir, en cada punto de la superficie, $\vec{E}$ es paralelo al vector $\Delta \vec{A}$ que representa
+      un elemento de área local $\Delta A_{i}$ que rodea al punto en la superficie. Por lo tanto
+      \begin{equation*}
+        \vec{E} \ \Delta \vec{A}_{i} = E \ \Delta A
+      \end{equation*}
+
+      \PN y el flujo neto a través de la superficie gaussiana es igual a
+      \begin{equation*}
+        \Phi = \oint \vec{E} d\vec{A} = \oint E dA = E \oint dA
+      \end{equation*}
+
+      \PN donde se ha retirado $E$ afuera de la integral ya que, por simetría, $E$ es constante en la superficie y se
+      conoce por $E = k q/r^{2}$. Además, en vista de que la superficie es esférica, $\oint dA = A = 4 \pi r^{2}$. Por
+      lo tanto, el flujo neto a través de la superficie gaussiana es
+      \begin{equation*}
+        \Phi = k \frac{q}{r^{2}} (4 \pi r^{2}) = 4 \pi kq
+      \end{equation*}
+
+      \PN Dado que $k = 1/4 \pi \varepsilon_{0}$, escribimos
+      \begin{equation*}
+        \Phi = \frac{q}{\varepsilon_{0}}
+      \end{equation*}
+
+      \PN \textbf{\underline{Observaciones}}
+      \begin{itemize}
+        \item el flujo neto a través de cualquier superficie cerrada que rodea a una carga puntual $q$ tiene un valor de
+        $q/e_{0}$ y es independiente de la forma de la superficie.
+        \item el flujo eléctrico neto a través de una superficie cerrada que no rodea a ninguna carga es igual a cero.
+      \end{itemize}
+
+    \subsection{Conductores en equilibrio estático}
+      \PN Un buen conductor eléctrico contiene cargas (electrones) que no se encuentran unidas a ningún átomo y debido a
+      eso tienen la libertad de moverse en el interior del material. Cuando dentro de un conductor no existe ningún
+      movimiento neto de carga, el conductor está en \textbf{equilibrio electrostático}. Un conductor en equilibrio
+      electrostático tiene las siguientes propiedades:
+      \begin{itemize}
+        \item En el interior del conductor el campo eléctrico es cero, si el conductor es sólido o hueco.
+        \item Si un conductor aislado tiene carga, ésta reside en su superficie.
+        \item El campo eléctrico justo fuera de un conductor con carga es perpendicular a la superficie del conductor y
+        tiene una magnitud $s/e_{0}$, donde $s$ es la densidad de carga superficial en ese punto.
+        \item En un conductor de forma irregular, la densidad de carga superficial es máxima en aquellos puntos donde el
+        radio de curvatura de la superficie es el menor.
+      \end{itemize}
