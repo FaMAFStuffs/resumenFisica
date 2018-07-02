@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{1}
+Serway, R.: Física para ciencias e ingeniería, Volumen 2. Cengage Learning
+  (2008)
+
+\bibitem{2}
+Serway, R.: Física para ciencias e ingeniería, Volumen 1. Cengage Learning
+  (2015)
+
+\end{thebibliography}
